@@ -1,2 +1,6 @@
 project:
   machine_name: drupalblt
+command-hooks:
+  frontend-reqs:
+    dir: ${docroot}/themes/custom/custom_theme
+    command: 'npm install'
