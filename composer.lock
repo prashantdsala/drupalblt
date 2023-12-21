@@ -4,7 +4,7 @@
         "Read more about it at https://getcomposer.org/doc/01-basic-usage.md#installing-dependencies",
         "This file is @generated automatically"
     ],
-    "content-hash": "37894e8f91efe43b9bebaae07d40bc03",
+    "content-hash": "8dba804bc4b980d7b72a33e0af332bb9",
     "packages": [
         {
             "name": "asm89/stack-cors",
@@ -1204,6 +1204,49 @@
                 }
             ],
             "time": "2023-12-03T20:05:35+00:00"
+        },
+        {
+            "name": "lcatlett/blt-ddev",
+            "version": "dev-lcatlett-patch-1",
+            "source": {
+                "type": "git",
+                "url": "https://github.com/lcatlett/blt-ddev.git",
+                "reference": "754f1e7a326e0bb6c14c05889533a422a854541e"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://api.github.com/repos/lcatlett/blt-ddev/zipball/754f1e7a326e0bb6c14c05889533a422a854541e",
+                "reference": "754f1e7a326e0bb6c14c05889533a422a854541e",
+                "shasum": ""
+            },
+            "type": "library",
+            "autoload": {
+                "psr-4": {
+                    "Lcatlett\\BltDdev\\": "./src/"
+                }
+            },
+            "notification-url": "https://packagist.org/downloads/",
+            "license": [
+                "MIT"
+            ],
+            "authors": [
+                {
+                    "name": "Lindsey Catlett",
+                    "role": "Maintainer"
+                }
+            ],
+            "description": "ddev integration for Acquia BLT",
+            "homepage": "https://github.com/lcatlett/blt-ddev",
+            "keywords": [
+                "acquia",
+                "blt",
+                "ddev"
+            ],
+            "support": {
+                "issues": "https://github.com/lcatlett/blt-ddev/issues",
+                "source": "https://github.com/lcatlett/blt-ddev/tree/lcatlett-patch-1"
+            },
+            "time": "2019-10-04T16:07:07+00:00"
         },
         {
             "name": "masterminds/html5",
@@ -8115,7 +8158,7 @@
         }
     ],
     "aliases": [],
-    "minimum-stability": "stable",
+    "minimum-stability": "dev",
     "stability-flags": [],
     "prefer-stable": true,
     "prefer-lowest": false,

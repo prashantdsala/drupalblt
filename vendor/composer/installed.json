@@ -3456,6 +3456,52 @@
             "install-path": "../jarnaiz/behat-junit-formatter"
         },
         {
+            "name": "lcatlett/blt-ddev",
+            "version": "dev-lcatlett-patch-1",
+            "version_normalized": "dev-lcatlett-patch-1",
+            "source": {
+                "type": "git",
+                "url": "https://github.com/lcatlett/blt-ddev.git",
+                "reference": "754f1e7a326e0bb6c14c05889533a422a854541e"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://api.github.com/repos/lcatlett/blt-ddev/zipball/754f1e7a326e0bb6c14c05889533a422a854541e",
+                "reference": "754f1e7a326e0bb6c14c05889533a422a854541e",
+                "shasum": ""
+            },
+            "time": "2019-10-04T16:07:07+00:00",
+            "type": "library",
+            "installation-source": "dist",
+            "autoload": {
+                "psr-4": {
+                    "Lcatlett\\BltDdev\\": "./src/"
+                }
+            },
+            "notification-url": "https://packagist.org/downloads/",
+            "license": [
+                "MIT"
+            ],
+            "authors": [
+                {
+                    "name": "Lindsey Catlett",
+                    "role": "Maintainer"
+                }
+            ],
+            "description": "ddev integration for Acquia BLT",
+            "homepage": "https://github.com/lcatlett/blt-ddev",
+            "keywords": [
+                "acquia",
+                "blt",
+                "ddev"
+            ],
+            "support": {
+                "issues": "https://github.com/lcatlett/blt-ddev/issues",
+                "source": "https://github.com/lcatlett/blt-ddev/tree/lcatlett-patch-1"
+            },
+            "install-path": "../lcatlett/blt-ddev"
+        },
+        {
             "name": "league/container",
             "version": "4.2.0",
             "version_normalized": "4.2.0.0",

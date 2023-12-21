@@ -118,6 +118,7 @@ class ComposerStaticInit37894e8f91efe43b9bebaae07d40bc03
         'L' => 
         array (
             'League\\Container\\' => 17,
+            'Lcatlett\\BltDdev\\' => 17,
         ),
         'G' => 
         array (
@@ -394,8 +395,8 @@ class ComposerStaticInit37894e8f91efe43b9bebaae07d40bc03
         ),
         'Psr\\Http\\Message\\' => 
         array (
-            0 => __DIR__ . '/..' . '/psr/http-message/src',
-            1 => __DIR__ . '/..' . '/psr/http-factory/src',
+            0 => __DIR__ . '/..' . '/psr/http-factory/src',
+            1 => __DIR__ . '/..' . '/psr/http-message/src',
         ),
         'Psr\\Http\\Client\\' => 
         array (
@@ -428,6 +429,10 @@ class ComposerStaticInit37894e8f91efe43b9bebaae07d40bc03
         'League\\Container\\' => 
         array (
             0 => __DIR__ . '/..' . '/league/container/src',
+        ),
+        'Lcatlett\\BltDdev\\' => 
+        array (
+            0 => __DIR__ . '/..' . '/lcatlett/blt-ddev/src',
         ),
         'GuzzleHttp\\Psr7\\' => 
         array (
@@ -563,8 +568,8 @@ class ComposerStaticInit37894e8f91efe43b9bebaae07d40bc03
         ),
         'Behat\\Mink\\Driver\\' => 
         array (
-            0 => __DIR__ . '/..' . '/behat/mink-selenium2-driver/src',
-            1 => __DIR__ . '/..' . '/behat/mink-browserkit-driver/src',
+            0 => __DIR__ . '/..' . '/behat/mink-browserkit-driver/src',
+            1 => __DIR__ . '/..' . '/behat/mink-selenium2-driver/src',
         ),
         'Behat\\Mink\\' => 
         array (
